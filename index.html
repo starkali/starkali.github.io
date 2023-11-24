@@ -423,8 +423,8 @@
             </div>
           </div>
           <p>
-            <button class="btn btn-primary" type="button" onclick="toggleButtonText()" data-bs-toggle="collapse" data-bs-target="#collapseCert" aria-expanded="true" aria-controls="collapseCert">
-                Show all Certificates
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCert" aria-expanded="true" aria-controls="collapseCert">
+              Show all Certificates
             </button>
           </p>
           <div class="collapse" id="collapseCert">
@@ -687,21 +687,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script>
-        function toggleButtonText() {
-            var button = document.querySelector(".btn-primary");
-
-            if (button.textContent === "Show all Certificates") {
-                button.textContent = "Hide Certificates";
-            } else {
-                button.textContent = "Show all Certificates";
-            }
-        }
-    </script>
-
-    <!-- Bootstrap JS (Popper.js and Bootstrap JS) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
